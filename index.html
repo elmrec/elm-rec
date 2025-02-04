@@ -1,4 +1,53 @@
 ---
-layout: home
-author_profile: true
+<!--layout: home-->
+<!--author_profile: true-->
+
+layout: splash
+
+title: "Friends Park Community"
+
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/park-header.jpg
+
+actions:
+  - label: "Learn More"
+
+url: "/about/"
+excerpt: "We are dedicated to maintaining and improving our local park for everyone to enjoy."
+
+feature_row:
+  - image_path: /assets/images/park-header.jpg
+    alt: "Community Events"
+    title: "Community Events"
+    excerpt: "Join our seasonal cleanup, picnics, and nature walks."
+    url: "/events/"
+    btn_class: "btn--primary"
+    btn_label: "See Events"
+  - image_path: /assets/images/park-header.jpg
+    alt: "Park Preservation"
+    title: "Park Preservation"
+    excerpt: "Learn about our conservation and restoration efforts."
+    url: "/about/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/park-header.jpg
+    alt: "Get Involved"
+    title: "Get Involved"
+    excerpt: "Volunteer, donate, or contribute to park improvements"
+    url: "/contact/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+
 ---
+
+{% include feature_row %}
+
+
+
+{% for post in site.posts limit:3 %}
+{% include archive-single.html %}
+{% endfor %}
+
+<a href="/posts/" class="btn btn--primary">View All Posts</a>
