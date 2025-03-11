@@ -1,53 +1,67 @@
 ---
-<!--layout: home-->
-<!--author_profile: true-->
-
 layout: splash
-
-title: "Friends Park Community"
-
+title: "Friends of Elm Road Recreation Ground"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/park-header.jpg
 
-actions:
-  - label: "Learn More"
+  actions:
+    - label: "Join Us"
+      url: "/contact/"
+excerpt: "Together, we're creating a vibrant community space for everyone to enjoy."
 
-url: "/about/"
-excerpt: "We are dedicated to maintaining and improving our local park for everyone to enjoy."
+intro:
+  - excerpt: 'Join our growing community of park enthusiasts dedicated to preserving and enhancing our local green space.'
 
 feature_row:
-  - image_path: /assets/images/park-header.jpg
-    alt: "Community Events"
-    title: "Community Events"
-    excerpt: "Join our seasonal cleanup, picnics, and nature walks."
-    url: "/events/"
-    btn_class: "btn--primary"
-    btn_label: "See Events"
-  - image_path: /assets/images/park-header.jpg
-    alt: "Park Preservation"
-    title: "Park Preservation"
-    excerpt: "Learn about our conservation and restoration efforts."
-    url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/park-header.jpg
-    alt: "Get Involved"
-    title: "Get Involved"
-    excerpt: "Volunteer, donate, or contribute to park improvements"
-    url: "/contact/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+- image_path: /assets/images/park-header.jpg
+  alt: "Community Events"
+  title: "Community Events"
+  excerpt: "Join our seasonal cleanup, picnics, and nature walks."
+  url: "/events/"
+  btn_class: "btn--primary"
+  btn_label: "See Events"
+- image_path: /assets/images/park-header.jpg
+  alt: "Park Preservation"
+  title: "Park Preservation"
+  excerpt: "Learn about our conservation and restoration efforts."
+  url: "/about/"
+  btn_class: "btn--primary"
+  btn_label: "Learn more"
+- image_path: /assets/images/park-header.jpg
+  alt: "Get Involved"
+  title: "Get Involved"
+  excerpt: "Volunteer, donate, or contribute to park improvements"
+  url: "/contact/"
+  btn_class: "btn--primary"
+  btn_label: "Learn more"
 
+
+feature_row2:
+  - image_path: /assets/images/logo-contest/winner-original.png
+    alt: "Latest News"
+    title: "New Logo Unveiled"
+    excerpt: "Check out our community-designed logo that represents our values and vision."
+    url: "/announcements/new-logo-winner-announcement/"
+    btn_class: "btn--primary"
+    btn_label: "Read More"
 ---
+
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
+{% include feature_row id="feature_row2" type="left" %}
 
+<div class="notice--info">
+  <h4>Stay Updated!</h4>
+  <p>Follow our latest activities and upcoming events.</p>
 
-{% for post in site.posts limit:3 %}
-{% include archive-single.html %}
-{% endfor %}
+  {% for post in site.posts limit:3 %}
+  {% include archive-single.html %}
+  {% endfor %}
 
-<a href="/posts/" class="btn btn--primary">View All Posts</a>
+  <br/>
+  <a href="/posts/" class="btn btn--info">View All Updates</a>
+</div>
