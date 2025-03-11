@@ -7,13 +7,26 @@ header:
   overlay_image: /assets/images/park-header.jpg
 ---
 
-We’d love to hear from you! Whether you have questions, suggestions, or want to get involved, please don’t hesitate to reach out.
+We'd love to hear from you! Whether you have questions, suggestions, or want to get involved, please don't hesitate to reach out.
 
-## Contact Information
+## Get in Touch
 - Email: friendselmroadrec@gmail.com
-- Address: Elm Road Recreation Ground, Elm Road, KT2, Kingston Upon Thames
 
-## Feedback Form
-[Insert a contact form here]
+## Volunteer Opportunities
+We're always looking for enthusiastic volunteers to help with:
+- Park maintenance and gardening
+- Event organization and support
+- Community outreach
+- Administrative tasks
 
-Join our mailing list to stay updated on events and opportunities to get involved! [Subscribe Link]
+To volunteer, please email us with "Volunteer" in the subject line, including:
+- Your name
+- Contact details
+- Areas of interest
+- Availability
+
+## Visit Us
+Elm Road Recreation Ground is located at:
+Elm Road, KT2, Kingston Upon Thames
+
+The park is open daily from dawn to dusk.
