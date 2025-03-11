@@ -1,7 +1,7 @@
 ---
 title: "Introducing Our New Logo: Contest Winner Announcement!"
 header:
-  teaser: "/assets/images/500x300.png"
+  teaser: "/assets/images/logo-contest/winner-original.png"
 categories: 
   - Announcements
 tags:

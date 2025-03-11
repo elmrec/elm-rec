@@ -1,7 +1,13 @@
 ---
-title: "Children's Logo Design Competition: Help Shape FERR's Identity!"
+title: "Children's Logo Design Competition"
+tagline: "Help Shape FERR's Identity!"
 header:
-  teaser: "/assets/images/500x300.png"
+  overlay_image: "/assets/images/logo-contest/logo-contest-header.png"
+  overlay_filter: "0.5"
+  overlay_color: "#83B692"
+  caption: "Easter Egg Hunt at Elm Road Recreation Ground"
+  teaser: "/assets/images/logo-contest/logo-contest-header.png"
+
 categories: 
   - Announcements
 tags:
