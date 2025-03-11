@@ -58,9 +58,11 @@ feature_row2:
   <h4>Stay Updated!</h4>
   <p>Follow our latest activities and upcoming events.</p>
 
-  {% for post in site.posts limit:3 %}
-  {% include archive-single.html %}
-  {% endfor %}
+  <ul class="post-list">
+    {% for post in site.posts limit:3 %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
   <br/>
   <a href="/posts/" class="btn btn--info">View All Updates</a>
