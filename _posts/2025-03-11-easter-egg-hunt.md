@@ -27,7 +27,6 @@ Get ready for an egg-citing adventure! Join us for a fun-filled family day at El
 - Seed Planting Workshop
 - Face Painting
 - Fun Family Games
-- Prizes for Everyone
 
 ### When
 - Date: Saturday, April 6, 2025
