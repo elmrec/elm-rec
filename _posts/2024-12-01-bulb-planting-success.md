@@ -6,6 +6,8 @@ header:
   overlay_filter: "0.5"
   overlay_color: "#83B692"
   caption: "Our wonderful community volunteers at work"
+  teaser: "/assets/images/events/bulb-plant/bulb-plant-participants-1.png"
+
 gallery:
   - url: /assets/images/events/bulb-plant/bulb-plant-participants-1.png
     image_path: /assets/images/events/bulb-plant/bulb-plant-participants-1.png
