@@ -59,7 +59,7 @@ feature_row2:
   <p>Follow our latest activities and upcoming events.</p>
 
   <ul class="post-list">
-    {% for post in site.posts limit:3 %}
+    {% for post in site.posts limit:4 %}
     <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
