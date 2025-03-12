@@ -1,10 +1,15 @@
 ---
 permalink: /about/
-title: "About"
+title: "Who we are"
+tagline: "Building a Stronger Community Through Our Green Space"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/park-header.jpg
+  caption: "Elm Road Recreation Ground - A Space for Everyone"
+  actions:
+    - label: "Get Involved"
+      url: "/contact/"
 ---
 
 The Friends of Elm Road Recreation Ground is a volunteer group formed in 2024 by local residents who recognized the importance of this green space to our community. Our dedicated volunteers work together to preserve and enhance this valuable community asset for everyone to enjoy.

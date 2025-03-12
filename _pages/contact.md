@@ -1,10 +1,12 @@
 ---
 permalink: /contact/
-title: "Contact"
+title: "Get in Touch"
+tagline: "Connect with Your Community"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/park-header.jpg
+  caption: "Elm Road Recreation Ground - A Space for Everyone"
 ---
 
 We'd love to hear from you! Whether you have questions, suggestions, or want to get involved, please don't hesitate to reach out.

@@ -1,10 +1,15 @@
 ---
 permalink: /welcome/
-title: "Welcome"
+title: "Welcome to Our Community"
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/park-header.jpg
+  actions:
+    - label: "Get Involved"
+      url: "/contact/"
+  caption: "Elm Road Recreation Ground - A Space for Everyone"
+excerpt: "Join us in preserving and enhancing our beloved community green space."
 ---
 
 Welcome to the official website of the Friends of Elm Road Recreation Ground. We are a community-driven organization dedicated to preserving, enhancing, and promoting our beloved local green space.
