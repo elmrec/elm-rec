@@ -12,7 +12,7 @@ header:
 We'd love to hear from you! Whether you have questions, suggestions, or want to get involved, please don't hesitate to reach out.
 
 ## Get in Touch
-- Email: friendselmroadrec@gmail.com
+- Email us at [friendselmroadrec@gmail.com](mailto:friendselmroadrec@gmail.com)
 
 ## Volunteer Opportunities
 We're always looking for enthusiastic volunteers to help with:
