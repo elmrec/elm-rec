@@ -40,7 +40,7 @@ Get ready for an egg-citing adventure! Join us for a fun-filled family day at El
 - Water bottle
 
 ## How to Participate
-1. Register on our event page
+1. No registration required
 2. Arrive at the park by 12:00 PM
 3. Join in the fun!
 
