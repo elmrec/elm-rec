@@ -70,7 +70,9 @@ feature_row2:
 
   <ul class="post-list">
     {% for post in site.posts limit:4 %}
-    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% unless post.unlisted %}
+        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endunless %}
     {% endfor %}
   </ul>
 
