@@ -7,7 +7,7 @@ header:
   overlay_color: "#83B692"
   caption: "Community Bulb Planting at Elm Road Recreation Ground"
   teaser: "/assets/images/events/bulb-plant-2025-success/bulb-planting-12.jpg"
-  og_image: "/assets/images/events/bulb-plant-2025-success/bulb-planting-12.jpg"
+  og_image: "/assets/images/events/bulb-plant-2025-success/bulb-planting-12-og.jpg"
 
 gallery:
   - url: /assets/images/events/bulb-plant-2025-success/bulb-planting-01.jpg
