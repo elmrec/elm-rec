@@ -2,11 +2,12 @@
 title: "Thank You Good Gym Volunteers!"
 tagline: ""
 header:
-  overlay_image: "/assets/images/goodgym-volunteers.webp"
+  overlay_image: "/assets/images/goodgym-volunteers-og.png"
   overlay_filter: "0.5"
   overlay_color: "#83B692"
-  teaser: "/assets/images/goodgym-volunteers.webp"
+  teaser: "/assets/images/goodgym-volunteers-og.png"
   og_image: "/assets/images/goodgym-volunteers-og.png"
+  og_logg: "/assets/images/goodgym-volunteers-og.png"
 categories:
   - Events
 tags:
