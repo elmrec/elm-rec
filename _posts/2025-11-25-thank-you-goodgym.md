@@ -6,7 +6,7 @@ header:
   overlay_filter: "0.5"
   overlay_color: "#83B692"
   teaser: "/assets/images/goodgym-volunteers.webp"
-  og_image: "/assets/images/goodgym-volunteers-og.webp"
+  og_image: "/assets/images/goodgym-volunteers-og.png"
 categories:
   - Events
 tags:
