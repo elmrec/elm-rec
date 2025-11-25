@@ -24,4 +24,4 @@ A cleaner, safer, and more welcoming play space for all the children who enjoy t
 
 ## Get Involved
 
-🙌 Want to get involved in future volunteering at Elm Road Rec? Check our [contact page](/contact) for details.
+Want to get involved in future volunteering at Elm Road Rec? Check our [contact page](/contact) for details.
