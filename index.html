@@ -3,71 +3,61 @@ layout: splash
 title: "Friends of Elm Road Recreation Ground"
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.4"
   overlay_image: /assets/images/park-header.jpg
-
   actions:
-    - label: "Join Us"
+    - label: "Get Involved"
       url: "/contact/"
-excerpt: "Together, we're creating a vibrant community space for everyone to enjoy."
+excerpt: "Preserving and enhancing our cherished green space for generations to come."
 
 intro:
-  - excerpt: 'Join our growing community of park enthusiasts dedicated to preserving and enhancing our local green space.'
+  - excerpt: "We are a community-led organisation dedicated to maintaining and improving Elm Road Recreation Ground. Through volunteer events, conservation efforts, and community activities, we work together to keep our park beautiful and welcoming for all."
 
-feature_row:
-- image_path: /assets/images/park-header.jpg
-  alt: "Community Events"
-  title: "Community Events"
-  excerpt: "Join our seasonal cleanup, picnics, and nature walks."
-  url: "/events/"
-  btn_class: "btn--primary"
-  btn_label: "See Events"
-- image_path: /assets/images/park-header.jpg
-  alt: "Park Preservation"
-  title: "Park Preservation"
-  excerpt: "Learn about our conservation and restoration efforts."
-  url: "/about/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
-- image_path: /assets/images/park-header.jpg
-  alt: "Get Involved"
-  title: "Get Involved"
-  excerpt: "Volunteer, donate, or contribute to park improvements"
-  url: "/contact/"
-  btn_class: "btn--primary"
-  btn_label: "Learn more"
+feature_row_event:
+  - image_path: /assets/images/events/egg-hunt/easter-hunt-2026.jpeg
+    alt: "Easter Egg Hunt 2026"
+    title: "Easter Egg Hunt 2026"
+    excerpt: "Join us on **Sunday, 22nd March** for a fun-filled family day featuring an Easter egg hunt, seed planting workshop, face painting, and games. Free entry for all ages."
+    url: "/events/easter-egg-hunt/"
+    btn_class: "btn--success"
+    btn_label: "Event Details"
 
-feature_row1:
-  - image_path: assets/images/events/bulb-plant-2025/bulb-plant.png
-    alt: "bulb plant poster"
-    title: "Come join us for our annual Bulb Pant!"
-    excerpt: "Join us for a fun-filled day of bulb planting. Bring your family and friends!"
-    url: "/events/bulb-planting-2025/"
+feature_row_about:
+  - image_path: /assets/images/park-header.jpg
+    alt: "Community Events"
+    title: "Community Events"
+    excerpt: "From seasonal planting days to family fun events, there's always something happening at Elm Road."
+    url: "/posts/"
     btn_class: "btn--primary"
-    btn_label: "Participate"
-
-feature_row2:
+    btn_label: "View Events"
   - image_path: /assets/images/logo-contest/winner-original.png
-    alt: "Latest News"
-    title: "New Logo Unveiled"
-    excerpt: "Check out our community-designed logo that represents our values and vision."
-    url: "/announcements/new-logo-winner-announcement/"
+    alt: "About Us"
+    title: "About Us"
+    excerpt: "Learn about our mission, history, and the dedicated volunteers who make it all possible."
+    url: "/about/"
     btn_class: "btn--primary"
-    btn_label: "Read More"
+    btn_label: "Learn More"
+  - image_path: /assets/images/park-header.jpg
+    alt: "Get Involved"
+    title: "Get Involved"
+    excerpt: "Whether you can spare an hour or a day, your contribution makes a real difference to our park."
+    url: "/contact/"
+    btn_class: "btn--primary"
+    btn_label: "Contact Us"
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-<!--{% include feature_row %}-->
+<h2 class="archive__subtitle">Upcoming Event</h2>
 
-{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="feature_row_event" type="left" %}
 
-{% include feature_row id="feature_row2" type="right" %}
+<h2 class="archive__subtitle">Discover More</h2>
+
+{% include feature_row id="feature_row_about" %}
 
 <div class="notice--info">
-  <h4>Stay Updated!</h4>
-  <p>Follow our latest activities and upcoming events.</p>
-
+  <h4>Latest News</h4>
   <ul class="post-list">
     {% for post in site.posts limit:4 %}
       {% unless post.unlisted %}
@@ -75,7 +65,6 @@ feature_row2:
       {% endunless %}
     {% endfor %}
   </ul>
-
   <br/>
   <a href="/posts/" class="btn btn--info">View All Updates</a>
 </div>
