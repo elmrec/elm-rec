@@ -1,0 +1,39 @@
+name: Label Publication Requests
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+
+permissions:
+  issues: write
+
+jobs:
+  apply-labels:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'request')
+    steps:
+      - name: Apply channel labels from request form
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = (context.payload.issue.body || "").toLowerCase();
+            const labels = new Set();
+
+            if (body.includes("website")) labels.add("web");
+            if (body.includes("facebook")) labels.add("facebook");
+            if (body.includes("instagram")) labels.add("instagram");
+            if (body.includes("\n### priority\nurgent")) labels.add("urgent");
+
+            if (labels.size === 0) {
+              core.info("No channel labels detected from issue body.");
+              return;
+            }
+
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.issue.number,
+              labels: [...labels]
+            });

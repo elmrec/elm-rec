@@ -1,0 +1,111 @@
+name: Publication Request
+description: Request publication on the website, Facebook, Instagram, or a combination.
+title: "[Publication] "
+labels:
+  - request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to request publication for Friends of Elm Rec channels.
+        Complete all required sections so the committee can schedule quickly.
+
+  - type: input
+    id: requester
+    attributes:
+      label: Requester name
+      description: Who is submitting this request?
+      placeholder: Jane Doe
+    validations:
+      required: true
+
+  - type: dropdown
+    id: channels
+    attributes:
+      label: Publish channels
+      description: Choose one or more channels for this content.
+      multiple: true
+      options:
+        - Website
+        - Facebook
+        - Instagram
+    validations:
+      required: true
+
+  - type: input
+    id: title
+    attributes:
+      label: Campaign or post title
+      description: Short internal title for tracking.
+      placeholder: Spring litter pick volunteer callout
+    validations:
+      required: true
+
+  - type: input
+    id: target_date
+    attributes:
+      label: Target publish date and time
+      description: Include timezone (for example `2026-03-15 18:00 Europe/London`).
+      placeholder: 2026-03-15 18:00 Europe/London
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Normal
+        - High
+        - Urgent
+    validations:
+      required: true
+
+  - type: textarea
+    id: copy
+    attributes:
+      label: Draft copy
+      description: Provide the draft text/caption to publish.
+      placeholder: Include final wording, links, hashtags, and call-to-action.
+    validations:
+      required: true
+
+  - type: textarea
+    id: assets
+    attributes:
+      label: Assets
+      description: Paste links to images/videos/files and indicate which channel each asset is for.
+      placeholder: |
+        - Website header image:
+        - Facebook image/video:
+        - Instagram image/video:
+    validations:
+      required: true
+
+  - type: textarea
+    id: destination
+    attributes:
+      label: Destination link or page
+      description: If relevant, include the page URL or slug this post should point to.
+      placeholder: /events/spring-cleanup/
+    validations:
+      required: false
+
+  - type: textarea
+    id: approvals
+    attributes:
+      label: Approval notes
+      description: Who approved this content, and are there legal/safeguarding constraints?
+      placeholder: Approved by Communications Lead on 2026-03-10.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Submission checklist
+      options:
+        - label: I confirm the copy is ready for publication.
+          required: true
+        - label: I confirm media assets are final and accessible.
+          required: true

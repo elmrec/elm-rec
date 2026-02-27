@@ -1,0 +1,35 @@
+- name: request
+  color: "1d76db"
+  description: New publication or content request
+
+- name: web
+  color: "0052cc"
+  description: Publish on the website
+
+- name: facebook
+  color: "1877f2"
+  description: Publish on Facebook
+
+- name: instagram
+  color: "e4405f"
+  description: Publish on Instagram
+
+- name: "status: needs-info"
+  color: "f9d0c4"
+  description: Missing details before scheduling
+
+- name: "status: approved"
+  color: "0e8a16"
+  description: Approved for publication
+
+- name: "status: scheduled"
+  color: "fbca04"
+  description: Scheduled for a specific date/time
+
+- name: "status: published"
+  color: "5319e7"
+  description: Published and complete
+
+- name: urgent
+  color: "b60205"
+  description: Time-sensitive request

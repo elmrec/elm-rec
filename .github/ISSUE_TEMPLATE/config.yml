@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Support
-    url: https://github.com/mmistakes/minimal-mistakes/discussions
-    about: Please post your support questions in the Discussions section.
+  - name: Publication Request Process
+    url: https://github.com/elmrec/elm-rec/issues/new/choose
+    about: Use the Publication Request issue form for website/Facebook/Instagram requests.
