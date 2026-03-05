@@ -47,4 +47,4 @@ Use this form to request publication on our website and social channels.
 
 If the form does not load, open it directly at [tally.so/r/ODAYo8](https://tally.so/r/ODAYo8).
 
-Additional media files can be sent directly to Johnny on  💬 [WhatsApp](https://wa.me/447927551396) or 📧 [email](mailto:johnnymerayo@gmail.com).
+Additional media files can be sent directly to Johnny on [<span class="social-icons"><i class="fab fa-whatsapp" aria-hidden="true"></i></span> WhatsApp](https://wa.me/447927551396) or [<i class="fas fa-envelope" aria-hidden="true"></i> email](mailto:johnnymerayo@gmail.com).
