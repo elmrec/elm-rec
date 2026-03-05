@@ -11,6 +11,11 @@ header:
 
 We'd love to hear from you! Whether you have questions, suggestions, or want to get involved, please don't hesitate to reach out.
 
+## Join Our WhatsApp Community
+Stay updated on park news, events, and volunteering opportunities by joining our WhatsApp community:
+
+[Join the Elm Road Rec WhatsApp Community](https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb)
+
 ## Get in Touch
 - Email us at [friendselmroadrec@gmail.com](mailto:friendselmroadrec@gmail.com)
 
