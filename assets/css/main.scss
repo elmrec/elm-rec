@@ -97,6 +97,72 @@ search: false
   font-weight: 700;
 }
 
+@media (max-width: 63.99em) {
+  .masthead__inner-wrap {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+
+  .masthead__cta {
+    display: none !important;
+  }
+
+  .greedy-nav {
+    gap: 0.15rem;
+  }
+
+  .site-logo img {
+    max-height: 2rem;
+  }
+
+  .site-title {
+    margin-inline-end: 0.4rem;
+    font-size: 0.96rem;
+  }
+
+  .greedy-nav .visible-links a {
+    margin: 0 0.05rem;
+    padding: 0.5rem 0.55rem;
+    font-size: 0.92rem;
+  }
+
+  .greedy-nav__toggle {
+    margin-inline-start: 0.2rem;
+  }
+
+  .greedy-nav .hidden-links {
+    inset-inline-end: 0;
+    width: min(16rem, calc(100vw - 1.25rem));
+    margin-top: 0.65rem;
+    padding: 0.4rem;
+  }
+
+  .greedy-nav .hidden-links::before,
+  .greedy-nav .hidden-links::after {
+    inset-inline-end: 1rem;
+  }
+
+  .greedy-nav .hidden-links a {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 39.99em) {
+  .site-title {
+    display: none;
+  }
+
+  .greedy-nav a.site-logo {
+    margin-inline-end: 0.25rem;
+  }
+
+  .greedy-nav .visible-links a {
+    padding: 0.45rem 0.42rem;
+    font-size: 0.88rem;
+  }
+}
+
 .page__related {
   margin-top: 3rem;
 }
