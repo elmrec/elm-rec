@@ -37,7 +37,7 @@ header:
 
 <section class="page-intro-panel">
   <p class="page-intro-panel__eyebrow">What we have already delivered</p>
-  <p>The group is still early, but there is already a clear pattern: practical work, community participation, and public-facing activity that gives the park more attention and care.</p>
+  <p>The group is still early, but it has already run volunteer sessions, family events, and local projects that have made the park feel more active and better cared for.</p>
   <div class="page-highlights-grid" aria-label="What we have already delivered">
     <article class="page-highlights-card">
       <p class="page-highlights-card__eyebrow">Seasonal planting</p>
@@ -60,7 +60,7 @@ header:
 
 <section class="page-intro-panel">
   <p class="page-intro-panel__eyebrow">What to expect</p>
-  <p>FERR is not trying to look bigger than it is. The aim is consistent community activity, clear communication, and improvements people can actually notice.</p>
+  <p>FERR aims to keep things practical: regular activity in the park, clear updates, and improvements residents can actually see.</p>
   <div class="page-highlights-grid" aria-label="What you can expect from FERR">
     <article class="page-highlights-card">
       <p class="page-highlights-card__eyebrow">Clear volunteer sessions</p>
@@ -75,8 +75,8 @@ header:
       <p>Regular communication about what has happened, what is planned, and where help is needed.</p>
     </article>
     <article class="page-highlights-card">
-      <p class="page-highlights-card__eyebrow">Longer-term thinking</p>
-      <p>A focus on building momentum over time instead of relying on one-off announcements.</p>
+      <p class="page-highlights-card__eyebrow">Steady progress</p>
+      <p>Regular work in the park rather than one-off announcements or isolated events.</p>
     </article>
   </div>
 </section>
@@ -101,7 +101,7 @@ header:
 
 <section class="page-intro-panel">
   <p class="page-intro-panel__eyebrow">What comes next</p>
-  <p>Future work will only matter if it improves the experience of the park and brings more people into the rhythm of maintaining it.</p>
+  <p>The next step is simple: improve the park in ways people notice and make it easier for more residents to take part.</p>
   <div class="page-highlights-grid" aria-label="What comes next">
     <article class="page-highlights-card">
       <p class="page-highlights-card__eyebrow">Long-term planning</p>

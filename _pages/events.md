@@ -17,29 +17,6 @@ excerpt: "Discover upcoming events and activities at Elm Road Recreation Ground.
 
 {% assign sorted_posts = site.posts | where_exp: "post", "post.categories contains 'Events'" | sort: "date" | reverse %}
 
-<section class="page-intro-panel">
-  <p class="page-intro-panel__eyebrow">Events</p>
-  <h2>This is the fastest way to see what is happening in and around the park.</h2>
-  <p>Use this page to find family events, volunteer sessions, planting days, and community activity organised by FERR. If you want reminders and changes in real time, join the WhatsApp group after browsing here.</p>
-</section>
-
-<section class="page-highlights-grid" aria-label="Event archive summary">
-  <article class="page-highlights-card">
-    <p class="page-highlights-card__eyebrow">In this archive</p>
-    <h3>{{ sorted_posts | size }} events</h3>
-    <p>Everything from practical volunteer sessions to family-friendly gatherings, kept in one place.</p>
-  </article>
-  <article class="page-highlights-card">
-    <p class="page-highlights-card__eyebrow">Best next step</p>
-    <h3>Check the latest listing first</h3>
-    <p>The newest event is usually the most relevant one, especially for dates, timings, and what to bring.</p>
-  </article>
-  <article class="page-highlights-card">
-    <p class="page-highlights-card__eyebrow">Stay updated</p>
-    <h3>Use WhatsApp for changes</h3>
-    <p>Weather, timings, and volunteer plans can move quickly. WhatsApp is where those updates land first.</p>
-  </article>
-</section>
 
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% for post in sorted_posts %}

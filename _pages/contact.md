@@ -12,8 +12,7 @@ header:
 
 <section class="page-intro-panel">
   <p class="page-intro-panel__eyebrow">Contact FERR</p>
-  <h2>The fastest routes in are WhatsApp for updates and email for anything specific.</h2>
-  <p>Use this page if you want to volunteer, ask a question, share an idea, or point out something that needs attention in the park. Keep it simple and we will route it from there.</p>
+  <p>Use this page if you want to volunteer, ask a question, share an idea, or point out something that needs attention in the park.</p>
   <div class="page-highlights-grid" aria-label="Contact options">
     <article class="page-highlights-card">
       <p class="page-highlights-card__eyebrow">Live updates</p>
@@ -34,18 +33,9 @@ header:
 </section>
 
 <section class="page-intro-panel">
-  <p class="page-intro-panel__eyebrow">Contact details</p>
-  <h2>Use the channel that matches the kind of response you need.</h2>
-  <p>WhatsApp is best for day-to-day involvement. Email is better for anything specific, detailed, or needing a direct reply. Social links are there if you want to follow publicly.</p>
-  <div class="page-highlights-grid" aria-label="Contact details">
-    <article class="page-highlights-card">
-      <p class="page-highlights-card__eyebrow">Email</p>
-      <p><a href="mailto:friendselmroadrec@gmail.com">friendselmroadrec@gmail.com</a></p>
-    </article>
-    <article class="page-highlights-card">
-      <p class="page-highlights-card__eyebrow">WhatsApp</p>
-      <p><a href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">Join the Elm Road Rec group</a></p>
-    </article>
+  <p class="page-intro-panel__eyebrow">Socials</p>
+  <p>Follow FERR on social media for public updates and community posts.</p>
+  <div class="page-highlights-grid" aria-label="Social links">
     <article class="page-highlights-card">
       <p class="page-highlights-card__eyebrow">Instagram</p>
       <p><a href="https://www.instagram.com/elm_rec">@elm_rec</a></p>

@@ -13,37 +13,6 @@ excerpt: "Preserving and enhancing our cherished green space for generations to 
 intro:
   - excerpt: "We are a community-led organisation dedicated to maintaining and improving Elm Road Recreation Ground. Through volunteer events, conservation efforts, and community activities, we work together to keep our park beautiful and welcoming for all."
 
-feature_row_event:
-  - image_path: /assets/images/events/egg-hunt/easter-hunt-2026.jpeg
-    alt: "Easter Egg Hunt 2026"
-    title: "Easter Egg Hunt 2026"
-    excerpt: "Join us on **Sunday, 22nd March** for a fun-filled family day featuring an Easter egg hunt, seed planting workshop, face painting, and games. Free entry for all ages."
-    url: "/events/easter-egg-hunt-2026/"
-    btn_class: "btn--success"
-    btn_label: "Event Details"
-
-feature_row_about:
-  - image_path: /assets/images/events/egg-hunt/easter-hunt-2026.jpeg
-    alt: "Community events at Elm Road Recreation Ground"
-    title: "Community Events"
-    excerpt: "From planting days to family activities, the park calendar is building into something people can actually plan around."
-    url: "/posts/"
-    btn_class: "btn--primary"
-    btn_label: "View Events"
-  - image_path: /assets/images/logo-contest/winner-logo.png
-    alt: "About Us"
-    title: "About Us"
-    excerpt: "Meet the residents behind FERR, see what we have already delivered, and where the group is heading next."
-    url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "Learn More"
-  - image_path: /assets/images/goodgym-volunteers-og.png
-    alt: "Get Involved"
-    title: "Get Involved"
-    excerpt: "Volunteer for a single session, share ideas, or join the WhatsApp group to stay close to upcoming work."
-    url: "/contact/"
-    btn_class: "btn--primary"
-    btn_label: "Contact Us"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -68,7 +37,7 @@ feature_row_about:
 <section class="home-mission" aria-label="Our mission">
   <div class="page-intro-panel">
     <p class="page-intro-panel__eyebrow">Our Mission</p>
-    <h3>To maintain and improve Elm Road Recreation Ground as a vibrant, safe, and enjoyable space for all members of our community to relax, play, and connect with nature.</h3>
+    <p>To maintain and improve Elm Road Recreation Ground as a vibrant, safe, and enjoyable space for all members of our community to relax, play, and connect with nature.</p>
   </div>
 
 </section>
@@ -93,9 +62,32 @@ feature_row_about:
   </article>
 </section>
 
-<h2 class="archive__subtitle">Upcoming Event</h2>
-
-{% include feature_row id="feature_row_event" type="left" %}
+<section class="home-event" aria-label="Upcoming event">
+  <div class="home-event__panel">
+    <div class="home-event__media">
+      <img src="/assets/images/events/egg-hunt/easter-hunt-2026.jpeg" alt="Easter Egg Hunt 2026 at Elm Road Recreation Ground">
+    </div>
+    <div class="home-event__body">
+      <p class="home-actions__eyebrow">Upcoming Event</p>
+      <h2>Easter Egg Hunt 2026</h2>
+      <p>Join us on <strong>Sunday, 22nd March</strong> for a family day in the park with an Easter egg hunt, seed planting, face painting, and games.</p>
+      <div class="page-highlights-grid" aria-label="Event highlights">
+        <article class="page-highlights-card">
+          <p class="page-highlights-card__eyebrow">Who it is for</p>
+          <p>Families, children, and neighbours who want an easy way to spend time in the park.</p>
+        </article>
+        <article class="page-highlights-card">
+          <p class="page-highlights-card__eyebrow">What to expect</p>
+          <p>Free entry, outdoor activities, and a simple way to take part in the life of Elm Road Recreation Ground.</p>
+        </article>
+      </div>
+      <div class="page-cta-panel__actions">
+        <a href="/events/easter-egg-hunt-2026/" class="btn btn--success">Event Details</a>
+        <a href="/events/" class="btn btn--primary">See All Events</a>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section class="home-actions" aria-label="Quick actions">
   <div class="home-actions__panel">
@@ -121,22 +113,70 @@ feature_row_about:
   </div>
 </section>
 
-<h2 class="archive__subtitle">Discover More</h2>
+<section class="home-discover" aria-label="Discover more">
+  <div class="home-discover__panel">
+    <div class="home-discover__intro">
+      <p class="home-actions__eyebrow">Discover More</p>
+      <h2>Three ways to understand what FERR does</h2>
+      <p>If you want the full picture, start with the events archive, learn who is behind the group, or go straight to the contact page and join in.</p>
+    </div>
+    <div class="home-discover__grid">
+      <article class="home-discover__card">
+        <div class="home-discover__media">
+          <img src="/assets/images/events/egg-hunt/easter-hunt-2026.jpeg" alt="Community events at Elm Road Recreation Ground">
+        </div>
+        <div class="home-discover__body">
+          <p class="home-highlights__eyebrow">Events Archive</p>
+          <h3>See what has been happening in the park</h3>
+          <p>Browse family events, volunteer sessions, planting days, and community activity in one place.</p>
+          <p><a href="/events/" class="btn btn--primary">View Events</a></p>
+        </div>
+      </article>
+      <article class="home-discover__card">
+        <div class="home-discover__media">
+          <img src="/assets/images/logo-contest/winner-logo.png" alt="Friends of Elm Road Recreation Ground logo">
+        </div>
+        <div class="home-discover__body">
+          <p class="home-highlights__eyebrow">About FERR</p>
+          <h3>Meet the residents behind the group</h3>
+          <p>See what FERR has already delivered, how the group works, and what it is trying to improve next.</p>
+          <p><a href="/about/" class="btn btn--primary">Learn More</a></p>
+        </div>
+      </article>
+      <article class="home-discover__card">
+        <div class="home-discover__media">
+          <img src="/assets/images/goodgym-volunteers-og.png" alt="Volunteers working in Elm Road Recreation Ground">
+        </div>
+        <div class="home-discover__body">
+          <p class="home-highlights__eyebrow">Get Involved</p>
+          <h3>Join the next piece of work</h3>
+          <p>Volunteer for a session, share an idea, or join WhatsApp so you hear about new activity early.</p>
+          <p><a href="/contact/" class="btn btn--primary">Contact Us</a></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
 
-{% include feature_row id="feature_row_about" %}
-
-<div class="notice--info">
-  <h4>Latest News</h4>
-  <ul class="post-list">
+<section class="home-news" aria-label="Latest news">
+  <div class="home-news__panel">
+    <div>
+      <p class="home-actions__eyebrow">Latest News</p>
+      <h2>Recent updates from the park</h2>
+      <p>The newest posts are the quickest way to see what has happened recently and what the group is working on now.</p>
+    </div>
+    <ul class="home-news__list">
     {% for post in site.posts limit:4 %}
       {% unless post.unlisted %}
-        <li>
+        <li class="home-news__item">
           <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
+          <span class="home-news__meta">{{ post.date | date: "%-d %b %Y" }}</span>
         </li>
       {% endunless %}
     {% endfor %}
-  </ul>
-  <br/>
-  <a href="/posts/" class="btn btn--info">View All Updates</a>
-</div>
+    </ul>
+    <div class="page-cta-panel__actions">
+      <a href="/posts/" class="btn btn--info">View All Updates</a>
+    </div>
+  </div>
+</section>
