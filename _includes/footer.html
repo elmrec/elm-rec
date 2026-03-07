@@ -1,48 +1,28 @@
 <div class="site-footer">
-  <div class="site-footer__grid">
-    <section class="site-footer__section site-footer__section--brand" aria-label="About FERR">
+  <div class="site-footer__row">
+    <div class="site-footer__brand">
       <p class="site-footer__eyebrow">FERR</p>
-      <h2>Friends of Elm Road Recreation Ground</h2>
-      <p>Working with local residents to keep Elm Road Recreation Ground cared for, active, and enjoyable for the whole community.</p>
-    </section>
+      <p class="site-footer__summary">Friends of Elm Road Recreation Ground</p>
+    </div>
 
-    <nav class="site-footer__section" aria-label="Footer navigation">
-      <p class="site-footer__eyebrow">Explore</p>
-      <ul class="site-footer__links">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about/">About</a></li>
-        <li><a href="/events/">Events</a></li>
-        <li><a href="/posts/">Blog</a></li>
-        <li><a href="/contact/">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="site-footer__actions">
+      <a class="btn btn--success" href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">WhatsApp</a>
+      <a class="btn btn--primary" href="/contact/">Contact</a>
+    </div>
 
-    <section class="site-footer__section" aria-label="Get involved">
-      <p class="site-footer__eyebrow">Get involved</p>
-      <p>Join WhatsApp for updates, or get in touch if you want to volunteer, ask a question, or support the group.</p>
-      <div class="site-footer__actions">
-        <a class="btn btn--success" href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">Join WhatsApp</a>
-        <a class="btn btn--primary" href="/contact/">Contact FERR</a>
-      </div>
-    </section>
-
-    <section class="site-footer__section" aria-label="Social links">
-      <p class="site-footer__eyebrow">Follow</p>
-      <ul class="site-footer__social">
-        {% if site.footer.links %}
-          {% for link in site.footer.links %}
-            {% if link.label and link.url %}
-              <li>
-                <a href="{{ link.url }}" rel="nofollow noopener noreferrer">
-                  <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
-                  <span>{{ link.label }}</span>
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-      </ul>
-    </section>
+    <ul class="site-footer__social" aria-label="Social links">
+      {% if site.footer.links %}
+        {% for link in site.footer.links %}
+          {% if link.label and link.url %}
+            <li>
+              <a href="{{ link.url }}" rel="nofollow noopener noreferrer" aria-label="{{ link.label }}">
+                <i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i>
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+    </ul>
   </div>
 
   <div class="site-footer__bottom">
