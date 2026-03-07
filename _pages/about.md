@@ -2,6 +2,7 @@
 permalink: /about/
 title: "Who we are"
 tagline: "Building a Stronger Community Through Our Green Space"
+classes: wide
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -12,31 +13,61 @@ header:
       url: "/contact/"
 ---
 
-The Friends of Elm Road Recreation Ground is a volunteer group formed in 2024 by local residents who recognized the importance of this green space to our community. Our dedicated volunteers work together to preserve and enhance this valuable community asset for everyone to enjoy.
+<section class="page-intro-panel">
+  <p class="page-intro-panel__eyebrow">About FERR</p>
+  <h2>We are residents organising practical improvements for Elm Road Recreation Ground.</h2>
+  <p>Friends of Elm Road Recreation Ground was formed in 2024 by local people who wanted the park to feel cleaner, safer, and better used. The group exists to turn community interest into visible action, from volunteer sessions and planting days to family events and long-term improvements.</p>
+</section>
 
-## Our Achievements
-- Successfully organized a community bulb planting event, adding hundreds of spring flowers to beautify the park
-- Conducted regular litter picking sessions to maintain park cleanliness
-- Launched a community-wide logo design contest to establish our visual identity
-- Built strong partnerships with local environmental groups
+<section class="page-highlights-grid" aria-label="What we do">
+  <article class="page-highlights-card">
+    <p class="page-highlights-card__eyebrow">What we do</p>
+    <h3>Improve the park</h3>
+    <p>We organise clean-ups, planting sessions, and maintenance activity that makes the park visibly better over time.</p>
+  </article>
+  <article class="page-highlights-card">
+    <p class="page-highlights-card__eyebrow">How we work</p>
+    <h3>Bring neighbours together</h3>
+    <p>We keep participation simple so residents can join an event, volunteer for an hour, or contribute ideas without friction.</p>
+  </article>
+  <article class="page-highlights-card">
+    <p class="page-highlights-card__eyebrow">Why it matters</p>
+    <h3>Build local momentum</h3>
+    <p>A stronger park creates a stronger neighbourhood, especially when improvements are community-led and clearly communicated.</p>
+  </article>
+</section>
 
-## Regular Activities
-- Monthly park clean-up days
-- Seasonal planting and gardening sessions
-- Community events and family activities
-- Environmental awareness workshops
+## What we have already delivered
+- Community bulb planting sessions that added seasonal colour across the park
+- Regular litter picking and maintenance activity to improve day-to-day appearance
+- A local logo competition that established a recognisable identity for the group
+- Collaboration with volunteers and local partners who share our interest in the space
 
-## Our Committee
+## What you can expect from us
+- Practical volunteer sessions with clear outcomes
+- Community events that help more residents use the park
+- Ongoing communication about what is happening and what is planned
+- A focus on steady, visible progress rather than one-off announcements
+
+## Committee
 - Chairperson: Russell Longley
 - Secretary: Margaret McAnally
 - Treasurer: Andrew Dobson
 
-## Future Plans
-- Develop park masterplan
-- Enhance play area facilities
-- Organize more community events
+## What comes next
+- Develop a stronger long-term plan for the recreation ground
+- Improve amenities and family-friendly areas where possible
+- Run more events that increase participation and local ownership
+- Keep building a wider volunteer base so activity is sustainable
 
-## Get Involved
-We welcome new members who share our passion for maintaining and improving our local park. Whether you can spare a few hours a month or want to take a more active role, there's a place for you in our community. Join us in making Elm Road Recreation Ground a vibrant space for everyone.
-
-To become a member or volunteer, please visit our [Contact](/contact/) page.
+<section class="page-cta-panel" aria-label="Get involved">
+  <div>
+    <p class="page-cta-panel__eyebrow">Join in</p>
+    <h2>There is room for both occasional volunteers and regular organisers.</h2>
+    <p>If you care about Elm Road Recreation Ground, you do not need a formal role to help. You can join an event, share ideas, or support specific activities as they come up.</p>
+  </div>
+  <div class="page-cta-panel__actions">
+    <a class="btn btn--primary" href="/contact/">Contact FERR</a>
+    <a class="btn btn--info" href="/events/">See Events</a>
+  </div>
+</section>

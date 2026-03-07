@@ -12,21 +12,39 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
-        <img src="{{ teaser | relative_url }}" alt="">
+  <article class="archive__item archive-card" itemscope itemtype="https://schema.org/CreativeWork"{% if post.locale %} lang="{{ post.locale }}"{% endif %}>
+    {% if teaser %}
+      <div class="archive__item-teaser archive-card__media">
+        <a href="{{ post.url | relative_url }}" rel="permalink">
+          <img src="{{ teaser | relative_url }}" alt="">
+        </a>
       </div>
     {% endif %}
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      {% if post.link %}
-        <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+    <div class="archive-card__body">
+      {% if post.categories and post.categories.size > 0 %}
+        <p class="archive-card__kicker">{{ post.categories[0] }}</p>
       {% endif %}
-    </h2>
-    {% include page__meta.html type=include.type %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      <h2 class="archive__item-title no_toc" itemprop="headline">
+        {% if post.link %}
+          <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+        {% else %}
+          <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+        {% endif %}
+      </h2>
+      {% if post.date %}
+        <p class="archive-card__meta">
+          <span>{{ post.date | date: "%-d %b %Y" }}</span>
+          {% if post.tags and post.tags.size > 0 %}
+            <span class="archive-card__meta-sep">•</span>
+            <span>{{ post.tags | first }}</span>
+          {% endif %}
+        </p>
+      {% else %}
+        {% include page__meta.html type=include.type %}
+      {% endif %}
+      {% if post.excerpt %}<p class="archive__item-excerpt archive-card__excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 190 }}</p>{% endif %}
+      <p class="archive-card__action"><a href="{{ post.url | relative_url }}" rel="permalink">Read update</a></p>
+    </div>
   </article>
 </div>
 {% endunless %}

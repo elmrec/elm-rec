@@ -18,29 +18,29 @@ feature_row_event:
     alt: "Easter Egg Hunt 2026"
     title: "Easter Egg Hunt 2026"
     excerpt: "Join us on **Sunday, 22nd March** for a fun-filled family day featuring an Easter egg hunt, seed planting workshop, face painting, and games. Free entry for all ages."
-    url: "/events/easter-egg-hunt/"
+    url: "/events/easter-egg-hunt-2026/"
     btn_class: "btn--success"
     btn_label: "Event Details"
 
 feature_row_about:
-  - image_path: /assets/images/park-header.jpg
-    alt: "Community Events"
+  - image_path: /assets/images/events/egg-hunt/easter-hunt-2026.jpeg
+    alt: "Community events at Elm Road Recreation Ground"
     title: "Community Events"
-    excerpt: "From seasonal planting days to family fun events, there's always something happening at Elm Road."
+    excerpt: "From planting days to family activities, the park calendar is building into something people can actually plan around."
     url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "View Events"
-  - image_path: /assets/images/park-header.jpg
+  - image_path: /assets/images/logo-contest/winner-logo.png
     alt: "About Us"
     title: "About Us"
-    excerpt: "Learn about our mission, history, and the dedicated volunteers who make it all possible."
+    excerpt: "Meet the residents behind FERR, see what we have already delivered, and where the group is heading next."
     url: "/about/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
-  - image_path: /assets/images/park-header.jpg
+  - image_path: /assets/images/goodgym-volunteers-og.png
     alt: "Get Involved"
     title: "Get Involved"
-    excerpt: "Whether you can spare an hour or a day, your contribution makes a real difference to our park."
+    excerpt: "Volunteer for a single session, share ideas, or join the WhatsApp group to stay close to upcoming work."
     url: "/contact/"
     btn_class: "btn--primary"
     btn_label: "Contact Us"
@@ -48,20 +48,67 @@ feature_row_about:
 
 {% include feature_row id="intro" type="center" %}
 
+<section class="home-highlights" aria-label="Key priorities">
+  <div class="home-highlights__grid">
+    <article class="home-highlights__card">
+      <p class="home-highlights__eyebrow">Priority One</p>
+      <h2>Protect the park</h2>
+      <p>Support litter picks, planting days, and practical improvements that keep Elm Road Recreation Ground safe, clean, and loved.</p>
+    </article>
+    <article class="home-highlights__card">
+      <p class="home-highlights__eyebrow">Priority Two</p>
+      <h2>Grow local participation</h2>
+      <p>Make it easy for neighbours to join in, hear about events early, and contribute without needing to join a committee first.</p>
+    </article>
+    <article class="home-highlights__card">
+      <p class="home-highlights__eyebrow">Priority Three</p>
+      <h2>Create visible momentum</h2>
+      <p>Turn volunteer effort into visible results, then document them so more residents can see what is happening in the park.</p>
+    </article>
+  </div>
+</section>
+
 <h2 class="archive__subtitle">Upcoming Event</h2>
 
 {% include feature_row id="feature_row_event" type="left" %}
 
-<!--<h2 class="archive__subtitle">Discover More</h2>-->
+<section class="home-actions" aria-label="Quick actions">
+  <div class="home-actions__panel">
+    <div>
+      <p class="home-actions__eyebrow">Quick Actions</p>
+      <h2>Pick the fastest way to get involved</h2>
+      <p>Whether you want to attend an event, volunteer, or stay updated, the site should get you there in one click.</p>
+    </div>
+    <div class="home-actions__links">
+      <a class="home-actions__link" href="/events/">
+        <strong>See upcoming events</strong>
+        <span>Browse community activities and park updates.</span>
+      </a>
+      <a class="home-actions__link" href="/contact/">
+        <strong>Volunteer with FERR</strong>
+        <span>Offer time, ideas, or practical help for the next session.</span>
+      </a>
+      <a class="home-actions__link" href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">
+        <strong>Join WhatsApp</strong>
+        <span>Get reminders, updates, and last-minute event details.</span>
+      </a>
+    </div>
+  </div>
+</section>
 
-<!--{% include feature_row id="feature_row_about" %}-->
+<h2 class="archive__subtitle">Discover More</h2>
+
+{% include feature_row id="feature_row_about" %}
 
 <div class="notice--info">
   <h4>Latest News</h4>
   <ul class="post-list">
     {% for post in site.posts limit:4 %}
       {% unless post.unlisted %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
+        </li>
       {% endunless %}
     {% endfor %}
   </ul>
