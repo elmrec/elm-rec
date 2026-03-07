@@ -13,15 +13,23 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
+            {% assign is_active = false %}
+            {% if link.url == '/' and page.url == '/' %}
+              {% assign is_active = true %}
+            {% elsif link.url != '/' and page.url contains link.url %}
+              {% assign is_active = true %}
+            {% endif %}
             <li class="masthead__menu-item">
               <a
                 href="{{ link.url | relative_url }}"
+                {% if is_active %} class="is-active"{% endif %}
                 {% if link.description %} title="{{ link.description }}"{% endif %}
                 {% if link.target %} target="{{ link.target }}"{% endif %}
               >{{ link.title }}</a>
             </li>
           {%- endfor -%}
         </ul>
+        <a class="masthead__cta" href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">Join WhatsApp</a>
         {% if site.search == true %}
         <button class="search__toggle" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
