@@ -5,7 +5,7 @@ tagline: "Building a Stronger Community Through Our Green Space"
 classes: wide
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "linear-gradient(120deg, rgba(7, 28, 59, 0.72), rgba(18, 86, 126, 0.38))"
   overlay_image: /assets/images/park-header.jpg
   caption: "Elm Road Recreation Ground - A Space for Everyone"
   actions:

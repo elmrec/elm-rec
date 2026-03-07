@@ -6,8 +6,8 @@ classes: wide
 author_profile: false
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/park-header.jpg
+  overlay_filter: "linear-gradient(120deg, rgba(40, 22, 58, 0.66), rgba(13, 88, 124, 0.32))"
+  overlay_image: /assets/images/events/egg-hunt/easter-hunt-2026.jpeg
   caption: "Join Our Community Events at Elm Road Recreation Ground"
   actions:
     - label: "Join WhatsApp"

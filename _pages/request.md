@@ -6,7 +6,7 @@ sitemap: false
 classes: wide
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "linear-gradient(120deg, rgba(7, 28, 59, 0.74), rgba(10, 68, 112, 0.32))"
   overlay_image: /assets/images/park-header.jpg
   caption: "Submit content for Friends of Elm Rec channels"
   actions:

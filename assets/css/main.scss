@@ -97,6 +97,84 @@ search: false
   font-weight: 700;
 }
 
+.page__related {
+  margin-top: 3rem;
+}
+
+.page__related .grid__wrapper {
+  display: grid;
+  gap: 1rem;
+  margin-inline-end: 0;
+}
+
+.page__related .grid__item {
+  width: auto;
+  margin: 0;
+  float: none;
+}
+
+.page__related .archive-card {
+  display: block;
+  height: 100%;
+  padding: 0.95rem;
+}
+
+.page__related .archive-card__media {
+  margin-bottom: 0.85rem;
+}
+
+.page__related .archive-card__media img {
+  aspect-ratio: 16 / 9;
+}
+
+.page__related .archive-card__meta {
+  font-size: 0.85rem;
+}
+
+.page__related .archive-card__excerpt {
+  display: none;
+}
+
+.page__related .archive__item-title {
+  font-size: 1rem;
+}
+
+.page__hero--overlay {
+  position: relative;
+  min-height: clamp(17rem, 34vw, 24rem);
+  background-position: center center;
+  background-size: cover;
+}
+
+.page__hero--overlay .wrapper {
+  padding-top: clamp(3.4rem, 7vw, 5.4rem);
+  padding-bottom: clamp(2.3rem, 5vw, 3.5rem);
+}
+
+.page__hero--overlay .page__title {
+  max-width: 12ch;
+  font-size: clamp(2.1rem, 5vw, 3.4rem);
+  line-height: 1.03;
+  text-wrap: balance;
+}
+
+.page__hero--overlay .page__lead {
+  max-width: 42rem;
+  margin-top: 0.7rem;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.page__hero--overlay .btn {
+  margin-top: 0.35rem;
+}
+
+.page__hero-caption {
+  padding: 0.35rem 0.75rem;
+  border-top-left-radius: 0.75rem;
+  background: rgba(7, 28, 59, 0.68);
+  backdrop-filter: blur(8px);
+}
+
 .page__footer {
   margin-top: 4rem;
   background:
@@ -670,6 +748,11 @@ search: false
     display: inline-flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .page__related .grid__wrapper {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: start;
   }
 
   .site-footer__row {
