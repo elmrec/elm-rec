@@ -36,3 +36,15 @@ header:
     <p>The blog gives context; the events archive is better for upcoming participation and practical details.</p>
   </article>
 </section>
+
+<section class="page-cta-panel" aria-label="Archive navigation">
+  <div>
+    <p class="page-cta-panel__eyebrow">Browse the archive</p>
+    <h2>Use the year index to move quickly, then open the update that gives the detail you need.</h2>
+    <p>This page works best as a running record of announcements, event recaps, and practical progress across the park.</p>
+  </div>
+  <div class="page-cta-panel__actions">
+    <a class="btn btn--info" href="#2026">Jump to latest year</a>
+    <a class="btn btn--primary" href="/events/">See event archive</a>
+  </div>
+</section>

@@ -14,52 +14,85 @@ header:
   <p class="page-intro-panel__eyebrow">Contact FERR</p>
   <h2>The fastest routes in are WhatsApp for updates and email for anything specific.</h2>
   <p>Use this page if you want to volunteer, ask a question, share an idea, or point out something that needs attention in the park. Keep it simple and we will route it from there.</p>
+  <div class="page-highlights-grid" aria-label="Contact options">
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Live updates</p>
+      <p>Join the WhatsApp group to hear about volunteer sessions, event reminders, and last-minute changes.</p>
+      <p><a class="btn btn--success" href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">Join WhatsApp</a></p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Direct contact</p>
+      <p>Email us if you want to volunteer, raise an issue, suggest an improvement, or ask about the group.</p>
+      <p><a class="btn btn--primary" href="mailto:friendselmroadrec@gmail.com">Email FERR</a></p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Seeing what is happening</p>
+      <p>Browse events and recent updates before getting in touch so you can see the kind of work already underway.</p>
+      <p><a class="btn btn--info" href="/events/">View Events</a></p>
+    </article>
+  </div>
 </section>
 
-<section class="page-highlights-grid" aria-label="Contact options">
-  <article class="page-highlights-card">
-    <p class="page-highlights-card__eyebrow">Best for</p>
-    <h3>Live updates</h3>
-    <p>Join the WhatsApp group to hear about volunteer sessions, event reminders, and last-minute changes.</p>
-    <p><a class="btn btn--success" href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">Join WhatsApp</a></p>
-  </article>
-  <article class="page-highlights-card">
-    <p class="page-highlights-card__eyebrow">Best for</p>
-    <h3>Direct contact</h3>
-    <p>Email us if you want to volunteer, raise an issue, suggest an improvement, or ask about the group.</p>
-    <p><a class="btn btn--primary" href="mailto:friendselmroadrec@gmail.com">Email FERR</a></p>
-  </article>
-  <article class="page-highlights-card">
-    <p class="page-highlights-card__eyebrow">Best for</p>
-    <h3>Seeing what is happening</h3>
-    <p>Browse events and recent updates before getting in touch so you can see the kind of work already underway.</p>
-    <p><a class="btn btn--info" href="/events/">View Events</a></p>
-  </article>
+<section class="page-intro-panel">
+  <p class="page-intro-panel__eyebrow">Contact details</p>
+  <h2>Use the channel that matches the kind of response you need.</h2>
+  <p>WhatsApp is best for day-to-day involvement. Email is better for anything specific, detailed, or needing a direct reply. Social links are there if you want to follow publicly.</p>
+  <div class="page-highlights-grid" aria-label="Contact details">
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Email</p>
+      <p><a href="mailto:friendselmroadrec@gmail.com">friendselmroadrec@gmail.com</a></p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">WhatsApp</p>
+      <p><a href="https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb">Join the Elm Road Rec group</a></p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Instagram</p>
+      <p><a href="https://www.instagram.com/elm_rec">@elm_rec</a></p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Facebook</p>
+      <p><a href="https://www.facebook.com/profile.php?id=61586870511199">Friends of Elm Road Recreation Ground</a></p>
+    </article>
+  </div>
 </section>
 
-## Contact details
-- Email: [friendselmroadrec@gmail.com](mailto:friendselmroadrec@gmail.com)
-- WhatsApp community: [Join the Elm Road Rec group](https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb)
-- Instagram: [@elm_rec](https://www.instagram.com/elm_rec)
-- Facebook: [Friends of Elm Road Recreation Ground](https://www.facebook.com/profile.php?id=61586870511199)
+<section class="page-intro-panel">
+  <p class="page-intro-panel__eyebrow">Volunteer opportunities</p>
+  <p>If you want to support the group by email, send your name, contact details, areas of interest, and typical availability so the next step is clear.</p>
+  <div class="page-highlights-grid" aria-label="Volunteer opportunities">
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Park maintenance</p>
+      <p>Help with gardening, litter picking, tidying, and practical park upkeep.</p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Event support</p>
+      <p>Assist with family activities, setup, coordination, and on-the-day help.</p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Community outreach</p>
+      <p>Help spread the word, invite participation, and connect with local residents.</p>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Admin support</p>
+      <p>Contribute behind the scenes with planning, organisation, and communications.</p>
+    </article>
+  </div>
+</section>
 
-## Volunteer opportunities
-We are usually looking for help with:
-- Park maintenance and gardening
-- Event organization and support
-- Community outreach
-- Administrative tasks
-
-If you want to volunteer by email, send a note with:
-- Your name
-- Contact details
-- Areas of interest
-- Availability
-
-## Visit the park
-Elm Road Recreation Ground is in Kingston upon Thames, on Elm Road, `KT2`.
-
-The park is open daily from dawn to dusk.
+<section class="page-intro-panel">
+  <p class="page-intro-panel__eyebrow">Visit the park</p>
+  <p>The park is open daily from dawn to dusk.</p>
+  <div class="page-map-embed">
+    <iframe
+      title="Map of Elm Road Recreation Ground"
+      src="https://www.google.com/maps?cid=2641420127289441169&hl=en-US&output=embed"
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
 
 <section class="page-cta-panel" aria-label="Next step">
   <div>

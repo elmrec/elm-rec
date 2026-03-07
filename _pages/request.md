@@ -98,4 +98,8 @@ header:
   </div>
 </section>
 
-Additional media files can be sent directly to Johnny on [WhatsApp](https://wa.me/447927551396) or by [email](mailto:johnnymerayo@gmail.com).
+<section class="page-intro-panel">
+  <p class="page-intro-panel__eyebrow">Media handoff</p>
+  <h2>Large supporting files should be sent after the request is logged.</h2>
+  <p>Additional media can be sent directly to Johnny on <a href="https://wa.me/447927551396">WhatsApp</a> or by <a href="mailto:johnnymerayo@gmail.com">email</a> once the content request is submitted.</p>
+</section>
