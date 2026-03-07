@@ -8,6 +8,15 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+.layout--single.wide {
+  .page {
+    @media (min-width: 64em) {
+      width: 100%;
+      padding-inline-end: 0;
+    }
+  }
+}
+
 .home-highlights,
 .home-actions {
   margin: 2.5rem 0 3rem;

@@ -1,9 +1,7 @@
 # main links
 main:
   - title: "Welcome"
-    url: /welcome/
-  - title: "Events"
-    url: /events/
+    url: /
   - title: "About Us"
     url: /about/
   - title: "Contact"
