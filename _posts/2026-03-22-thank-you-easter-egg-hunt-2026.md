@@ -51,7 +51,7 @@ From the hunt itself to the activities around the park, it was a joy to see Elm 
 
 ## Supporting the Park
 
-If you enjoyed the event and would like to support Elm Road Recreation Ground, any donations go directly towards improving the park for our whole community.
+If you enjoyed the event and would like to support Elm Road Recreation Ground, you can [make a donation here](/donate/). Any donations go directly towards improving the park for our whole community.
 
 If you would like to get involved in future events or volunteering, please visit our [contact page](/contact/) or join our [WhatsApp group](https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb).
 
