@@ -89,8 +89,12 @@ header:
       <h3>Russell Longley</h3>
     </article>
     <article class="page-highlights-card">
-      <p class="page-highlights-card__eyebrow">Secretary</p>
+      <p class="page-highlights-card__eyebrow">Vice Chair</p>
       <h3>Margaret McAnally</h3>
+    </article>
+    <article class="page-highlights-card">
+      <p class="page-highlights-card__eyebrow">Secretary</p>
+      <h3>Paul King</h3>
     </article>
     <article class="page-highlights-card">
       <p class="page-highlights-card__eyebrow">Treasurer</p>
