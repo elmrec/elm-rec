@@ -40,4 +40,4 @@ At the AGM we will:
 
 Friends of Elm Road Recreation Ground is a community-led organisation dedicated to maintaining and improving Elm Road Recreation Ground. Through volunteer events, conservation efforts, and community activities, we work together to keep our park beautiful and welcoming for all.
 
-If you would like to get involved, you do not need to attend the meeting. Email [friendselmroadrec@gmail.com](mailto:friendselmroadrec@gmail.com) with your name, email address and mobile phone number for WhatsApp updates, or join our [WhatsApp group](https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb).
+If you would like to get involved, you do not need to attend the meeting. Please use our [contact page](/contact/) to get in touch, or join our [WhatsApp group](https://chat.whatsapp.com/FZ9KMjIYmGNIgRolTgUVxb) for updates about activities and events.
